@@ -1,5 +1,5 @@
 # Basic Chatbot
-A simple chatbot application built in Python with ChatGPT 3.5-turbo
+A simple chatbot application built in Python with gpt-4o
 
 ## Tech stack
 1. Python
@@ -22,6 +22,7 @@ Please see the `requirements.txt` for complete list of dependencies.
 4. `Conversational Retrieval Chain` is setup with MMR search strategy and `refine`chain type which makes sequential calls to retrieve dataset with refined prompts
 5. `Conversation History` is maintained externally to better extract response with contextual information
 6. `panel` python module is used to create user interface.
+7. LLM is configured through environment variables. `gpt-4o` is used as default.
 
 ## Build && Run
 1. Make sure to set environment variable for `OPENAI_API_KEY` i.e `export OPENAI_API_KEY=PROJECT_BASED_OPEN_API_KEY`
